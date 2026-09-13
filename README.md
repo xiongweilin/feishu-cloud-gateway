@@ -7,7 +7,7 @@ This deployment is intentionally separate from the Windows `feishu-gateway` Comp
 ## Layout
 
 - `cloud/relay.py` — durable webhook relay.
-- `cloud/watchdog.cpython-312.pyc` — the cloud watchdog runtime artifact.
+- `cloud/watchdog.py` — the cloud readiness watchdog source.
 - `deploy/` — systemd unit templates for the cloud deployment.
 
 The runtime directory is `/srv/feishu-cloud-gateway`. Credentials and queue state stay outside this repository.
